@@ -1,56 +1,81 @@
 body{
   padding: 0;
   margin:0;
-  font-family: sans-serif;
+  font-family: sans-serif,arial;
   box-sizing: border-box;
-
+  background-image: url(inner.png);
+  background-color: #000;
+  background-attachment: fixed;
+  background-position: 150px 150px;
+  background-size: 200px 200px;
 }
 .main{
   padding: 20px;
   width:65%;
   margin: 10px auto;
   background-color:;
-  font: orange;
   border-radius: 4px;
   align-items: center;
 }
 .main h1{
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  margin:1px auto;
+  padding: 5px;
   text-align: center;
+  background: none;
+
 }
 .main h1:hover{
     text-decoration: underline;
 }
+
 fieldset{
   padding: 10px;
-  width:60%;
+  width: 60%;
   margin: 10px auto;
   text-align: center;
+  background-color:
 }
 .main ol{
+  margin-left: 160px;
   list-style: none;
   text-align: justify;
+  align-items: center;
 }
 .main ol li{
   margin-bottom: 7px;
+  color: #fff;
 }
 .main ol li label{
   margin-right: 25px;
 }
+.main ol li label:hover{
+  cursor: pointer;
+}
 .main ol li input{
+  padding: 12px;
+  margin-top: 5px;
   border: none;
+  border-radius: 5px;
+  opacity:1;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
 }
 
 .main ol li input:focus{
+  border-bottom: 3px solid;
 border-bottom-color: orangered;
 }
 button{
-  border: none;
+  border-radius: 5px;
   text-decoration: underline;
   font-style: normal;
-  font-weight: 600;  cursor: pointer;
+  font-weight: 600;
+  cursor: pointer;
   float: right;
+  padding: 12px;
 }
 button:hover{
   text-decoration: none;
