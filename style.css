@@ -1,15 +1,39 @@
 body{
   padding: 0;
   margin:0;
-  background-color: cream;
+  background-color:orange;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 .main{
+  padding: 20px;
   width:80%;
   margin: 10px auto;
   background-color: #fff;
+  border-radius: 4px;
 }
 .main h1{
   text-align: center;
   text-decoration: underline;
+}
+fieldset{
+  padding: 10px;
+}
+.main ol{
+  list-style: none;
+  text-align: justify;
+}
+.main ol li{
+  margin-bottom: 7px;
+}
+.main ol li label{
+  margin-right: 25px;
+}
+.main ol li input{
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.main ol li input:focus{
+border-bottom-color: orangered;
 }
