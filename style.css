@@ -1,23 +1,30 @@
 body{
   padding: 0;
   margin:0;
-  background-color:orange;
   font-family: sans-serif;
   box-sizing: border-box;
+
 }
 .main{
   padding: 20px;
-  width:80%;
+  width:65%;
   margin: 10px auto;
-  background-color: #fff;
+  background-color:;
+  font: orange;
   border-radius: 4px;
+  align-items: center;
 }
 .main h1{
   text-align: center;
-  text-decoration: underline;
+}
+.main h1:hover{
+    text-decoration: underline;
 }
 fieldset{
   padding: 10px;
+  width:60%;
+  margin: 10px auto;
+  text-align: center;
 }
 .main ol{
   list-style: none;
@@ -32,8 +39,19 @@ fieldset{
 .main ol li input{
   border: none;
   border-bottom: 1px solid black;
+  margin-bottom: 20px;
 }
 
 .main ol li input:focus{
 border-bottom-color: orangered;
+}
+button{
+  border: none;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: 600;  cursor: pointer;
+  float: right;
+}
+button:hover{
+  text-decoration: none;
 }
