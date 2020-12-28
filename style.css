@@ -10,12 +10,10 @@ body{
   background-size: 200px 200px;
 }
 .main{
-  padding: 20px;
   width:65%;
-  margin: 10rem auto;
-  background-color:;
+  margin: 7rem auto;
   border-radius: 4px;
-  align-items: center;
+
 }
 .main h1{
   width: 100%;
@@ -32,19 +30,21 @@ body{
 }
 
 fieldset{
-  padding: 10px;
+  padding: 5px;
   width: 60%;
-  margin: 7rem auto;
+  margin: 4rem auto;
   text-align: center;
-  background-color:
 }
 .main ol{
-  margin-left: 10rem;
+  width:inherit;
+  margin:5rem auto;
   list-style: none;
   text-align: justify;
   align-items: center;
 }
 .main ol li{
+  margin-left: 4rem;
+  margin-right: 5rem;
   margin-bottom: 7px;
   color: #fff;
 }
@@ -55,6 +55,7 @@ fieldset{
   cursor: pointer;
 }
 .main ol li input{
+  width: 10rem;
   padding: 12px;
   margin-top: 5px;
   border: none;
@@ -81,10 +82,10 @@ button:hover{
   text-decoration: none;
 }
 @media only screen and(min-width:360) {
-  html{
+  body{
     width:100%;
   }
-  .main ol {
-    margin-left: 5px;
-  }
+fieldset{
+  margin: 2rem auto;
+}
 }
