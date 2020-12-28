@@ -80,3 +80,11 @@ button{
 button:hover{
   text-decoration: none;
 }
+@media only screen and(min-width:360) {
+  html{
+    width:100%;
+  }
+  .main ol {
+    margin-left: 5px;
+  }
+}
