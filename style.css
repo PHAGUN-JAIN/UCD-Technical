@@ -6,13 +6,13 @@ body{
   background-image: url(inner.png);
   background-color: #000;
   background-attachment: fixed;
-  background-position: 150px 150px;
+  background-position: 150rem 150rem;
   background-size: 200px 200px;
 }
 .main{
   padding: 20px;
   width:65%;
-  margin: 10px auto;
+  margin: 10rem auto;
   background-color:;
   border-radius: 4px;
   align-items: center;
@@ -34,12 +34,12 @@ body{
 fieldset{
   padding: 10px;
   width: 60%;
-  margin: 10px auto;
+  margin: 7rem auto;
   text-align: center;
   background-color:
 }
 .main ol{
-  margin-left: 160px;
+  margin-left: 10rem;
   list-style: none;
   text-align: justify;
   align-items: center;
