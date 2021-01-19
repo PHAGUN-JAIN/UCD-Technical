@@ -1,27 +1,42 @@
 *{
-  margin: 0;
-  padding:0;
-}
-body{
   box-sizing: border-box;
-  align-items: center;
-}
-div{
-  display: block;
 }
 .wrapper{
-  width: 100vw;
-  height: 100vh;
   margin: 0 auto;
-  font-family: arial;
   align-items: center;
+  text-align: center;
 }
-h3{
-  margin:1rem;
+.container{
+  border: 1px solid black;
+  box-shadow: 5px 10px #888888;
+  border-radius: 2em;
+  max-width: 63%;
+  margin: 11rem auto;
+  padding: 1.5rem;
 }
-input{
+
+.logo img{
+  height: 100px;
+  width:100px;
+}
+.content{
+  margin: 0 auto;
+}
+h3,button,input{
   margin: 1rem;
+  padding: 0.6rem;
 }
-button{
-  margin: 1rem;
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
