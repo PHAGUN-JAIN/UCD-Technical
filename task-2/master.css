@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  height: auto;
 }
 .wrapper{
   margin: 0 auto;
@@ -8,24 +9,32 @@
 }
 .container{
   border: 1px solid black;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 10px 10px 8px 10px #888888;
   border-radius: 2em;
   max-width: 63%;
+  height: auto;
   margin: 11rem auto;
   padding: 1.5rem;
 }
 
 .logo img{
-  height: 100px;
-  width:100px;
+  height: 11rem;
+  width:11rem;
 }
 .content{
   margin: 0 auto;
 }
 h3,button,input{
+  border-radius: 5px;
   margin: 1rem;
   padding: 0.6rem;
+  cursor:pointer;
 }
+input:focus{
+  border-bottom: 1px solid;
+
+}
+
 
 
 
