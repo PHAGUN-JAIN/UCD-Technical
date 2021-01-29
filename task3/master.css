@@ -1,0 +1,67 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-shadow: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+form{
+    text-align: center;
+    align-items: center;
+    max-width: 700px;
+    border: 2px solid rgb(29, 28, 28);
+ 
+    margin: 3rem auto;
+    padding:3rem;
+}
+
+.brand-logo{
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.brand-logo img{
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+input{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+input{
+    width:75%;
+}
+
+.btn button{
+    width:100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
