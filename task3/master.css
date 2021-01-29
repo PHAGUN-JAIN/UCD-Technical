@@ -64,6 +64,31 @@ input{
     text-decoration: underline;
 }
 
+
+footer{
+    padding-top: 1rem;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid grey;
+  }
+  div.social{
+    display: inline-block;
+  }
+  div.social a{
+  padding: 1.2em;
+  text-decoration: none;
+  color:purple;
+  }
+  div.credit{
+    display:inline-block;
+    padding-left: 7rem;
+  }
+  div.credit a{
+    text-decoration: none;
+    color: #000;
+  }
+
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
