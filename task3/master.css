@@ -6,7 +6,6 @@
 body{
     margin: 0%;
     padding: 0%;
-    box-shadow: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,arial, sans-serif;
     font-size: 18px;
 }
@@ -67,11 +66,19 @@ input{
 
 footer{
     padding-top: 1rem;
-    margin: 0;
+    padding-bottom: 0%;
+    background-color: rgb(12, 11, 11);
+    margin: 0%;
     text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
     border-top: 1px solid grey;
   }
-  div.social{
+  footer div{
+      padding: 0%;
+      margin: 0%;
+  }
+ /* div.social{
     display: inline-block;
   }
   div.social a{
@@ -79,13 +86,14 @@ footer{
   text-decoration: none;
   color:purple;
   }
+  */
   div.credit{
     display:inline-block;
-    padding-left: 7rem;
+    text-align: center;
   }
   div.credit a{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
   }
 
 
