@@ -33,6 +33,8 @@ form{
 }
 
 input{
+    outline: none;
+    background: none;
     margin: 1rem;
     padding: 1rem;
     border-radius: 7px;
@@ -40,10 +42,6 @@ input{
     border-bottom: 1px solid olivedrab;
 }
 
-
-input:hover{
-    cursor: pointer;
-}
 
 input{
     width:75%;
@@ -97,6 +95,8 @@ footer{
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
+
+
 
 
 /* Chrome, Safari, Edge, Opera */
