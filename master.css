@@ -8,11 +8,11 @@ body{
     padding: 0%;
     font-family:  sans-serif,Arial, Helvetica;
     font-size: 20px;
-  background-image: url("bg.jpg");
-  background-repeat: no-repeat;
-  background-clip: border-box;
-  background-size:cover;
-  opacity: 0.95;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size:cover;
+    opacity: 0.95;
 }
 /*
 .exp{
@@ -24,32 +24,42 @@ body{
 }
 */
 
+div{
+  width:100%;
+  padding: 0%;
+}
+
+div{
+  margin: 0 auto;
+}
+
 form{
     background-color: rgb(255, 250, 250);
     text-align: center;
     align-items: center;
     max-width: 700px;
-  
     border-radius: 4px;
-    margin: 3rem auto;
-    padding:3rem;
+    margin: 0 auto;
+    padding:2rem;
 }
 
 .brand-logo{
     overflow: hidden;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem auto;
 }
 
 .brand-logo img{
-    max-height: 15rem;
-    max-width: 15rem;
+  margin: 0%;
+   align-self: start;
+    height: 15rem;
+    width: 15rem;
 }
 
 input{
-  width:60%;
+  width:100%;
     outline: none;
     background: none;
-    margin: 1rem;
+    margin-top: 1rem;
     padding: 1rem;
     border-radius: 7px;
     border: none;
