@@ -8,10 +8,7 @@ body{
     padding: 0%;
     font-family:  sans-serif,Arial, Helvetica;
     font-size: 20px;
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-size:cover;
+    
     opacity: 0.95;
 }
 /*
@@ -73,13 +70,17 @@ input:focus-within{
 
 }
 
+.btn{
+  width:100%;
+}
+
 .btn button{
-    width:100%;
+    width:40%;
     margin-top: 1rem;
     padding: 1rem;
-    border-radius: 4px;
+    border-radius: 9px;
     border: none;
-    background: none;
+    background-color: #808080;
     font-size: 20px;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -87,7 +88,7 @@ input:focus-within{
 
 .btn button:hover{
     cursor: pointer;
-    color: #808080;
+    color: #ffffff;
 }
 
 
@@ -109,7 +110,7 @@ footer{
     display: inline-block;
   }
   div.social a{
-
+  margin-right: 1.4rem;
   text-decoration: none;
   color:purple;
   }
