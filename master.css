@@ -10,6 +10,7 @@ body{
     font-size: 20px;
     height: 100%;
     width: 100%;
+    scrollbar-width: 1;
 }
 .wrapper{
   z-index: 11;
@@ -21,6 +22,8 @@ body{
   justify-content: center;
   padding: 0%;
   margin: 0%;
+  overflow-x: hidden;
+  overflow-y:scroll;
 }
 
 #particles-js{
@@ -29,11 +32,12 @@ body{
   width: 100%;
   top: 0;
   bottom: 0;
-  width: 100%;
   position: absolute;
   z-index: 3;
   margin: 0%;
+  padding: 0%;
   object-fit: cover;
+  border: 3px solid black;
 }
 
 div{
@@ -155,4 +159,9 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
 }
