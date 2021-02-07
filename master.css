@@ -100,7 +100,7 @@ input:focus-within{
     padding: 1rem;
     border-radius: 9px;
     border: none;
-    background-color: #808080;
+    background-color: #9466af9f;
     font-size: 20px;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -109,6 +109,7 @@ input:focus-within{
 .btn button:hover{
     cursor: pointer;
     color: #ffffff;
+    background-color: #a470c2ce;
 }
 
 footer{
