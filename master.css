@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *{
     box-sizing: border-box;
     scrollbar-width: none;
@@ -7,7 +7,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    font-family:  sans-serif,Arial, Helvetica;
+    font-family:  poppins,sans-serif,Arial, Helvetica;
     font-size: 20px;
     height: 100%;
     width: 100%;
