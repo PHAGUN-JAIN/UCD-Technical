@@ -75,35 +75,18 @@ form{
 }
 
 input{
-  width:80%;
-  outline: none;
-  background: none;
-  margin-top: 2rem;
-  padding: 1rem;
-  border: 2px solid #a62bb6e7;
-  border-radius: 4px;
-  font-size: medium;
+    width:80%;
+    outline: none;
+    background: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid #a62bb6e7;
+    border-radius: 4px;
+    font-size: medium;
 }
 
 input:focus-within{
-border: 2px solid hsla(226, 90%, 54%, 0.377);
-}
-
-.team-size{
-  margin: 0%;
-  padding: 0%;
-  overflow: hidden;
-
-}
-.team-size input{
-  width:5%;
-  outline: none;
-  background: none;
-  text-align: left;
-}
-.team-size .rbtn-wrap{
-  text-align: left;
-  width: 70%;
+  border: 2px solid hsla(226, 90%, 54%, 0.377);
 }
 
 .btn{
@@ -165,6 +148,12 @@ footer{
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
+
+
+/*
+@media only screen and (max-width:400px){
+}
+*/
 
 
 
