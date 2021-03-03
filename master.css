@@ -96,7 +96,7 @@ border: 2px solid hsla(226, 90%, 54%, 0.377);
 
 }
 .team-size input{
-  width:5%;
+  max-width: 5%; 
   outline: none;
   background: none;
   text-align: left;
