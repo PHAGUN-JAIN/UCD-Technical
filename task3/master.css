@@ -129,6 +129,7 @@ footer{
 
  div.social{
     display: inline-block;
+    padding-top: 1.3rem;
   }
 
   div.social a{
@@ -140,6 +141,7 @@ footer{
   div.credit{
     display:inline-block;
     text-align: center;
+    padding-bottom: 1.3rem;
   }
 
   div.credit a{
