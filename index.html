@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="master.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="icon" href="logo.png" >
+    <script src="script.js"></script>
     <title>UCD | Kick off</title>
 </head>
 <body>
@@ -29,7 +30,21 @@
                         event_name
                     </h4>
                 </div>
-               
+
+                   
+                <div class="team-size">
+                    <p>Please select your Team Size:</p>
+                    <div class="rbtn-wrap">
+                        <input type="radio" id="solo" name="size" value="solo" checked >
+                        <label for="solo">SOLO</label><br>
+    
+                        <input type="radio" id="duo" name="size" value="duo" onclick="show_hidden(1)">
+                        <label for="duo">DUO</label><br> 
+                    </div>
+
+                </div>
+
+               <div id="prsn1">
                 <div class=name>
                     <input placeholder="First name" required>
                     <input placeholder="Last name"required>
@@ -49,19 +64,32 @@
                 <div>
                     <input type="number"  placeholder="Phno.(Whatsapp)" required >
                 </div>
-
-                
-                <div class="team-size">
-                    <p>Please select your Team Size:</p>
-                    <div class="rbtn-wrap">
-                        <input type="radio" id="solo" name="size" value="solo">
-                        <label for="solo">SOLO</label><br>
-    
-                        <input type="radio" id="duo" name="size" value="duo">
-                        <label for="duo">DUO</label><br> 
-                    </div>
-
+               </div>
+             
+               
+               <div id="prsn2">
+                <div class=name>
+                    <input placeholder="First name" required>
+                    <input placeholder="Last name"required>
                 </div>
+                <div class="sap">
+                    <input type="number" placeholder="Sap Id" required>
+                </div>
+                <div>
+                    <input type="email" name="" placeholder="Email" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="Branch" required>
+                </div>
+                <div>
+                    <input type="number" placeholder="Present year " required>
+                </div>
+                <div>
+                    <input type="number"  placeholder="Phno.(Whatsapp)" required >
+                </div>
+               </div>
+
+
 
                 <div class="btn">
                     <button type="submit">SUBMIT</button>

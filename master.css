@@ -128,6 +128,10 @@ border: 2px solid hsla(226, 90%, 54%, 0.377);
     background-color: #a470c2ce;
 }
 
+#prsn2{
+  display: none;
+}
+
 footer{
     padding-top: 1rem;
     padding-bottom: 0%;
