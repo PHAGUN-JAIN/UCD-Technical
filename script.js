@@ -5,7 +5,7 @@ function show_hidden(x){
         document.getElementById("prsn1").style.display='block';
         document.getElementById("prsn2").style.display='none';
     }
-    if (x === 1){
+    else if (x === 1){
         document.getElementById("prsn2").style.display='block';
     }
 }
