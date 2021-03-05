@@ -10,6 +10,28 @@ body {
   font-family: sans-serif;
 }
 
+header {
+  padding: 1.3rem;
+  border-bottom: 1px solid black;
+}
+header ul .menu {
+  list-style: none;
+}
+header ul {
+  float: right;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1pxsolid black;
+}
+header ul li {
+  display: inline;
+  padding-right: 2rem;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .wrapper {
   height: 800px;
 }

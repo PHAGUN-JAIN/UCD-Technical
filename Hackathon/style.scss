@@ -9,6 +9,29 @@ body{
     padding: 0%;
     font-family: sans-serif;
 }
+
+header{
+    padding: 1.3rem;
+    border-bottom: 1px solid black;
+    ul .menu{
+        list-style: none;
+    }
+    ul{
+        float: right;
+        text-align: center;
+        padding-bottom: 2rem;
+        border-bottom: 1pxsolid black;
+        li{
+            display: inline;
+            padding-right: 2rem;
+        }
+        li a {
+            text-decoration: none;
+            color: black;
+        }
+    } 
+}
+
 .wrapper{
     height: 800px;
 }
