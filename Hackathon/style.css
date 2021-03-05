@@ -15,8 +15,9 @@ body {
 }
 
 footer .copy {
-  padding: 4rem;
-  border-top: 1px solid black;
+  padding: 0.5rem;
+  border-top: 0.04rem solid black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
