@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -11,25 +12,50 @@ body {
 }
 
 header {
-  padding: 1.3rem;
+  padding: 1.2rem;
   border-bottom: 1px solid black;
+  background: #232323;
+  letter-spacing: 0.1rem;
+  display: flex;
 }
-header ul .menu {
+header p {
+  display: inline-block;
+  margin-top: 0.37rem;
+  font-size: 20px;
+  color: white;
+  margin-left: 2rem;
+}
+header nav {
+  font-size: 20px;
+  width: 100%;
+}
+header nav ul .menu {
   list-style: none;
 }
-header ul {
+header nav ul {
   float: right;
-  text-align: center;
-  padding-bottom: 2rem;
-  border-bottom: 1pxsolid black;
+  overflow: hidden;
 }
-header ul li {
+header nav ul li {
   display: inline;
-  padding-right: 2rem;
+  padding-right: 3rem;
 }
-header ul li a {
+header nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+header nav ul #rgst button {
+  background: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 40px;
+  border: 3px solid #F89932;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
