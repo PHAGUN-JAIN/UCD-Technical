@@ -21,9 +21,11 @@ header{
     display: flex;
 
     img{
-        max-height: 2.5rem;
+        max-height: 2.7rem;
         margin-left: 2rem;
-        
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
     }
 
     nav{
@@ -41,7 +43,7 @@ header{
 
         li{
             display: inline;
-            padding-right: 3rem;
+            padding-right: 2.5rem;
         }
 
         li a {
